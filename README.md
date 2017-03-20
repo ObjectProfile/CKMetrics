@@ -1,6 +1,6 @@
 # CKMetrics
 
-Chidamber & Kemerer object-oriented metrics are a metric suite intented to monitor software quality. This repository describes the implementation of CKMetrics for VisualWorks. 
+Chidamber & Kemerer object-oriented metrics are a metric suite intended to monitor software quality. This repository describes the implementation of CKMetrics for VisualWorks. 
 
 ## Where to get CKMetrics for VisualWorks
 
