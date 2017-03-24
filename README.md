@@ -12,17 +12,17 @@ Chidamber & Kemerer object-oriented metrics are a metric suite intended to monit
 
 For generate a report you can use the next script 
 
-.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=
-	| calculator |
-	calculator := CKCalculator new.
-	calculator addPackagesMatching: 'CKMetric*'.
-	^ calculator printResultOnDisk: 'myckmetricreport'
-.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=
+ ```
+| calculator |
+calculator := CKCalculator new.
+calculator addPackagesMatching: 'CKMetric*'.
+^ calculator printResultOnDisk: 'myckmetricreport'
+ ```
 
 The method #addPackagesMatching: uses regular expresion to find the packages that you may want to measure.
 The previous code should generate a file with this output
 
-.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=
+ ```
 CC	1.28421	Cyclomatic Complexity	Returns the cyclomatic complexity....
 LOC	1059	Number of Lines of Code	Returns the number of lines of code, ...
 LOCxC	34.1613	Number of Lines of Code per Class	Returns the average number of lines of code per class
@@ -42,7 +42,7 @@ NOMxP	31.6667	Number of Methods per Package	Returns the number of methods per pa
 NOP	6	Number Of Packages	Returns the number of packages defined in the analyzed system.
 NOPossibleBugs	0	Number of Possible Bugs	Returns the number of possible bugs(check comment of class CKNOPossibleBugsLED)
 NOUnnecessaryCode	1	Number of Unnecesary code	Returns the number of Unncessary code(check comment of class CKNOUnnecessaryCodeLED)
-.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=
+ ```
 
 With the visualizer, you can use the menu Tools>>Visualize CKMetrics Reports, to get a graph that shows all the reports that you previously created. And check the evolution of your app with lines of code, number of classes, by version.
 
