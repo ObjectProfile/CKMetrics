@@ -64,6 +64,4 @@ CKMetrics has been designed to work on Cincom VisualWorks Smalltalk, starting fr
 
 The CKMetric code for VisualWorks is under the MIT License. Code belongs to Object Profile and Lam Research. The full license is available on: https://github.com/ObjectProfile/CKMetrics/blob/master/LICENSE
 
-Website of copyright holders
-http://objectprofile.com
-http://www.lamresearch.com
+Website of the copyright holders: http://objectprofile.com http://www.lamresearch.com
