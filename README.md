@@ -49,7 +49,7 @@ With the visualizer, you can use the menu Tools>>Visualize CKMetrics Reports, to
 ## Get in touch with us
 
 You can get in touch with us via several ways:
- - sending us an email to `info@objectprofile.com`
+ - sending us an email to info@objectprofile.com
  - having a chat on Slack (Get an invitation from http://pharo.org/community , you will find us on the #Roassal channel)
 
 ## Contributing
