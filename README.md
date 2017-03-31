@@ -54,11 +54,11 @@ You can get in touch with us via several ways:
 
 ## Contributing
 
-We welcome contribution. Best is to either get in touch with us or submit issues to this GitHub repository
+We welcome contribution. Best is to either get in touch with us or submit issues to this GitHub repository.
 
 ## Platform
 
-CKMetrics has been designed to work on Cincom VisualWorks Smalltalk, starting from version 7.4 until the most recent ones
+CKMetrics has been designed to work on Cincom VisualWorks Smalltalk, starting from version 7.4 until the most recent ones.
 
 ## License
 
