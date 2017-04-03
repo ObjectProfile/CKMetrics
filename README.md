@@ -5,7 +5,7 @@ Chidamber & Kemerer object-oriented metrics are a metric suite intended to monit
 ## Where to get CKMetrics for VisualWorks
 
 * In VisualWorks connect to the publick repository in cincom 
-* Load Store >> Published Items...
+* In Store >> Published Items select `CKMetrics-core` for solely CKMetrics, or `CKMetrics-full` for CKMetrics and the Roassal-based visualizer
 * Load ckmetrics-full, to get the report calculator, and the visualizer, or load ckmetrics-core to get the report calculator with the basic metrics
 
 ## Use example
