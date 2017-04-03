@@ -16,7 +16,7 @@ For generate a report you can use the next script
 | calculator |
 calculator := CKCalculator new.
 calculator addPackagesMatching: 'CKMetric*'.
-^ calculator printResultOnDisk: 'myckmetricreport'
+calculator printResultOnDisk: 'myckmetricreport'
  ```
 
 The method #addPackagesMatching: uses regular expresion to find the packages that you may want to measure.
